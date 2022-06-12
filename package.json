@@ -1,0 +1,39 @@
+{
+  "name": "topgg-api",
+  "version": "0.0.0",
+  "description": "Unofficial Top.gg Node SDK",
+  "license": "MIT",
+  "author": "Johannes Andersen",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/Johannes-Andersen/topgg-api/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Johannes-Andersen/topgg-api.git"
+  },
+  "scripts": {
+    "format": "prettier --check \"**/*.{ts,tsx,js,md}\"",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,js,md}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
+    "eslint": "8.17.0",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.6.2",
+    "typescript": "4.7.3"
+  }
+}
